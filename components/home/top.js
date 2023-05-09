@@ -17,8 +17,8 @@ export default function Top(){
 이러한 모든 기능(”공급”)은 결국 그 “시장”에 “직간접적 비용을 지불하고 서비스를 이용하고자 하는 욕구”인 “수요” 가 있고, 특히 다양한 컨텐츠(”공급”)이 있다는 것은 그 수요의 양적인 수준이 여러 섹터의 공급자들을 자생할 수 있는 수준을 능가했음을 의미합니다. 쉽게 설명하자면, 당근마켓이랑 배달의민족, 쿠팡과 네이버, 카카오, 토스가 그만큼 사람들의 가려운 곳을 긁어줘서 그만큼 시장가치를 인정받았다는 겁니다.
 </p>
       <div className="flex justify-center">
-        <Link href='/projects' legacyBehavior>
-        <a className="btn-project shadow shadow-blue-500/40 hover:shadow-indigo-500/40 md:shadow-indigo-500/40">프로젝트 보러가기</a>
+        <Link href='/' legacyBehavior>
+        <a className="btn-project shadow shadow-blue-500/40 hover:shadow-indigo-500/40 md:shadow-indigo-500/40">앱 구경하기</a>
         </Link>
       </div>
     </div>
