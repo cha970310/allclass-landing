@@ -4,7 +4,7 @@ export default function Layout({children}){
 
     return(
         
-        <div className="bg-primary">
+        <div className="bg-white">
         
         <Header></Header>
         <div>{children}</div>
