@@ -26,10 +26,11 @@ return(
             <a className="text-gray-600 hover:text-gray-800">About</a>
           </li>
           <li>
-            <a className="text-gray-600 hover:text-gray-800" href="/terms">Terms of Use</a>
+            <Link className="text-gray-600 hover:text-gray-800" href="/terms">Terms of Use</Link>
+  
           </li>
           <li>
-            <a className="text-gray-600 hover:text-gray-800" href="/policy">Privacy Policy</a>
+          <Link className="text-gray-600 hover:text-gray-800" href="/policy">Policy</Link>
           </li>
         </nav>
       </div>
