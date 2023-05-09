@@ -1,8 +1,8 @@
 import Head from 'next/head'
-import Section_top from '../components/home/Section_top'
 import Layout from '../components/layout'
-import Section_middle from '../components/home/section_middle'
-import Section_bottom from '../components/home/section_bottom'
+import Top from '../components/home/top'
+import Middle from '../components/home/middle'
+import Bottom from '../components/home/bottom'
 
 
 
@@ -17,7 +17,7 @@ export default function Home() {
 
       <section className="flex min-h-screen flex-col items-center justify-center text-gray-600 body-font">
   <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-  <Section_top/>
+  <Top/>
   
 
 
@@ -28,7 +28,7 @@ export default function Home() {
 <section className="flex min-h-screen flex-col items-center justify-center text-gray-600 body-font">
   <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
   
-  <Section_middle/>
+  <Middle/>
 
 
   </div>
@@ -38,7 +38,7 @@ export default function Home() {
 <section className="flex min-h-screen flex-col items-center justify-center text-gray-600 body-font">
   <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
   
-  <Section_bottom/>
+  <Bottom/>
 
 
   </div>
