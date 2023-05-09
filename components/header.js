@@ -47,7 +47,7 @@ export default function Header(){
         <Link href='https://www.google.com/' legacyBehavior>
         <a className="mr-5 hover:text-allclass outline-allcalss btn-signup">회원가입</a>
         </Link> */}
-  {/* <DarkModeToggleButton/> */}
+  <DarkModeToggleButton/>
   </div>
 </header>
         </>
