@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Layout from '../components/layout'
-
+import Link from 'next/link'
+import Image from 'next/image'
 
 
 export default function Home() {
@@ -39,8 +40,13 @@ export default function Home() {
           <div className="mobile text-wrapper-4">팀 소개</div>
           <div className="mobile text-wrapper-5">문의</div>
           <div className="mobile text-wrapper-6">공지사항</div>
-          <div className="mobile text-wrapper-7">이용약관</div>
-          <div className="mobile text-wrapper-8">정책</div>
+          
+          <div className="mobile text-wrapper-7">
+            <Link className="link" href='/terms'>이용약관</Link>
+            </div>
+          <div className="mobile text-wrapper-8">
+            <Link className="link" href='/policy'>정책</Link>
+            </div>
           <p className="mobile element">
             <span className="mobile span">사업자 등록번호</span>
             <span className="mobile text-wrapper-9">
@@ -182,7 +188,12 @@ export default function Home() {
           </div>
         </div>
         <div className="mobile logo-wrapper">
-          <img className="mobile logo" alt="Logo" src="/images/mobile/logo-1.png" />
+          <Link   href={'/'} >
+            
+            <Image className="mobile logo" alt="Logo" src="/images/mobile/logo-1.png" width={100} height={100}/>
+            
+          </Link>
+          
         </div>
       </div>
     </div>
@@ -202,6 +213,7 @@ export default function Home() {
             <div className="desktop text-wrapper-3">연계 학원</div>
             <div className="desktop text-wrapper-4">정리 학원</div>
             <div className="desktop text-wrapper-5">2023.07.01 기준</div>
+            
             <img className="desktop image" alt="Image" src="/images/desktop/image-3.png" />
             <img className="desktop img" alt="Image" src="/images/desktop/2.png" />
             <img className="desktop logo-full" alt="Logo full" src="/images/desktop/logo-full-1.png" />
@@ -308,8 +320,12 @@ export default function Home() {
           <div className="desktop text-wrapper-13">팀 소개</div>
           <div className="desktop text-wrapper-14">문의</div>
           <div className="desktop text-wrapper-15">공지사항</div>
-          <div className="desktop text-wrapper-16">이용약관</div>
-          <div className="desktop text-wrapper-17">정책</div>
+          <div className="desktop text-wrapper-16">
+          <Link className="link" href='/terms'>이용약관</Link>
+            </div>
+          <div className="desktop text-wrapper-17">
+            <Link className="link" href='/policy'>정책</Link>
+            </div>
           <p className="desktop element-3">
             <span className="desktop text-wrapper-18">사업자 등록번호</span>
             <span className="desktop text-wrapper-19">
@@ -332,7 +348,12 @@ export default function Home() {
           <img className="desktop image-6" alt="Image" src="/images/desktop/image-4.png" />
         </div>
         <div className="desktop logo-wrapper">
-          <img className="desktop logo" alt="Logo" src="/images/desktop/logo-1.svg" />
+
+        <Link   href={'/'} >
+            
+            <Image className="desktop logo" alt="Logo" src="/images/desktop/logo-1.svg"  width={100} height={100}/>
+            
+          </Link>
         </div>
       </div>
     </div>

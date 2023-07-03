@@ -1,3 +1,16 @@
+.link{
+ color: #757575;
+ text-decoration: none;
+}
+a:active{
+  color: #757575;
+}
+a:hover{
+  color:#757575;
+}
+a:visited{
+  color: #757575;
+}
 @media(max-width:799px){
   .desktop{
     display: none;
