@@ -59,7 +59,7 @@ export default function Home() {
               {" "}
               : 서울특별시 용산구 이태원로 191, 4층 422-11(이태원동)
               <br />
-              연락: contact@allclass.io |{" "}
+              연락 : contact@allclass.io
             </span>
           </p>
           <p className="mobile text-wrapper-10">© 2023 Copylight by AllClass</p>
@@ -213,9 +213,12 @@ export default function Home() {
             <div className="desktop text-wrapper-3">연계 학원</div>
             <div className="desktop text-wrapper-4">정리 학원</div>
             <div className="desktop text-wrapper-5">2023.07.01 기준</div>
-            
+            <Link href='https://apps.apple.com/kr/app/%EC%98%AC%ED%81%B4%EB%9E%98%EC%8A%A4/id1668530483'>
             <img className="desktop image" alt="Image" src="/images/desktop/image-3.png" />
+            </Link>
+            <Link href='https://play.google.com/store/search?q=%EC%98%AC%ED%81%B4%EB%9E%98%EC%8A%A4&c=apps&hl=ko&gl=US'>
             <img className="desktop img" alt="Image" src="/images/desktop/2.png" />
+            </Link>
             <img className="desktop logo-full" alt="Logo full" src="/images/desktop/logo-full-1.png" />
             <div className="desktop text-wrapper-6">5173개</div>
             <div className="desktop text-wrapper-7">376개</div>
@@ -252,11 +255,8 @@ export default function Home() {
             </div>
             <div className="desktop text-wrapper-10">검색</div>
             <p className="desktop p">
-              키워드와 필터로 정리된 학원 DB를 한눈에 보고,
-              <br />
-              검색 할 수 있어요. 학원명, 교습대상, 과목 등을 입력
-              <br />
-              하고, 내가 원하는 학원과 강의 정보를 확인하세요!
+              키워드와 필터로 정리된 학원 DB를 한눈에 보고 검색할 수 있어요. 
+              학원명, 교습대상, 과목 등을 입력하고, 내가 원하는 학원과 강의 정보를 확인하세요!
             </p>
           </div>
           <div className="desktop overlap-wrapper">
@@ -279,9 +279,9 @@ export default function Home() {
         <div className="desktop section-3">
           <div className="desktop group-5">
             <p className="desktop element">
-              대치동 1,171개의 학원주소, 연락처, 강의과목, 강사, <br />
-              홈페이지, 공지사항과 설명회 일정을 다 담았어요.
-              <br />
+              대치동 1,171개의 학원주소, 연락처, 강의과목, 
+              <br/> 강사,홈페이지, 공지사항과 설명회 일정을 다 담았어요.
+              <br/>
               내가 관심있는 학원의 정보를 확인하세요!
             </p>
             <p className="desktop text-wrapper-9">
@@ -338,7 +338,7 @@ export default function Home() {
               {" "}
               : 서울특별시 용산구 이태원로 191, 4층 422-11(이태원동)
               <br />
-              연락: contact@allclass.io |{" "}
+              연락 : contact@allclass.io
             </span>
           </p>
           <p className="desktop text-wrapper-20">© 2023 Copylight by AllClass</p>

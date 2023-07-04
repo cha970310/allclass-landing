@@ -466,7 +466,7 @@ a:visited{
     background-image: url(../public/images/mobile/istock-837483562.png);
     background-size: 100% 100%;
     height: 120px;
-    left: 0;
+    left: -2px;
     position: absolute;
     top: 2980px;
     width: 375px;
@@ -620,6 +620,11 @@ a:visited{
       display: none;
     }  
 
+  .desktop.div {
+  left: -8px;
+}
+
+
     .desktop.screen {
         background-color: #ffffff;
         display: flex;
@@ -641,7 +646,7 @@ a:visited{
         background-position: 50% 50%;
         background-size: cover;
         height: 1157px;
-        left: 0;
+        left: -2px;
         position: absolute;
         top: 94px;
         width: 1440px;
@@ -658,13 +663,13 @@ a:visited{
       .desktop.screen .text-wrapper {
         color: #232323;
         font-family: "Spoqa Han Sans Neo-Medium", Helvetica;
-        font-size: 48px;
-        font-weight: 500;
-        left: 1px;
+        font-size: 42px;
+        font-weight: 600;
+        left: 0px;
         letter-spacing: -0.96px;
-        line-height: 68px;
+        line-height: 54px;
         position: absolute;
-        top: 212px;
+        top: 205px;
       }
       
       .desktop.screen .text-wrapper-2 {
@@ -796,7 +801,7 @@ a:visited{
       .desktop.screen .overlap-group-wrapper {
         background-color: #fafefc;
         height: 1243px;
-        left: 0;
+        left: -2px;
         position: absolute;
         top: 2799px;
         width: 1440px;
@@ -845,7 +850,7 @@ a:visited{
       .desktop.screen .p {
         color: #4c4c4c;
         font-family: "Spoqa Han Sans Neo-Regular", Helvetica;
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 400;
         left: 0;
         letter-spacing: -0.96px;
@@ -953,7 +958,7 @@ a:visited{
       .desktop.screen .element {
         color: #4c4c4c;
         font-family: "Spoqa Han Sans Neo-Regular", Helvetica;
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 400;
         left: 1px;
         letter-spacing: -0.96px;
@@ -1011,12 +1016,12 @@ a:visited{
         color: #ffffff;
         font-family: "Spoqa Han Sans Neo-Regular", Helvetica;
         font-size: 54px;
-        font-weight: 400;
+        font-weight: 200;
         left: 400px;
         letter-spacing: 0;
-        line-height: 88px;
+        line-height: 60px;
         position: absolute;
-        top: 111px;
+        top: 100px;
       }
       
       .desktop.screen .span {
