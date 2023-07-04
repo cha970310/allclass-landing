@@ -1,12 +1,14 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-  images:{
-    domains:[
-      'images.unsplash.com',
-      's3.us-west-2.amazonaws.com'
-    ]
+
+
+const metadata = {
+  icons: {
+    icon: '/favicon.png'
   }
+}
+
+const nextConfig = {
+ 
 }
 
 module.exports = nextConfig

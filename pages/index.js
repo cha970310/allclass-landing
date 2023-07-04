@@ -6,7 +6,15 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
+    
     <Layout>
+      
+      <Head>
+        <title>올클래스</title>
+        <link rel="icon" href="/images/favicon.png" />
+        
+
+      </Head>
       <div className="mobile screen">
       <div className="mobile div">
         <div className="mobile section">
